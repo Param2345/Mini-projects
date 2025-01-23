@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #f3f3f3;
+    --button-color: #000;
+    --icon-color: #fff;
+    --border-radius: 50%;
+}
+
+body {
+    background: var(--primary-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    position: absolute;
+    background: none;
+    outline: none;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+button i {
+    border: 2px solid var(--button-color);
+    padding: 25px;
+    border-radius: var(--border-radius);
+    font-size: 26px;
+    transition: all 0.9s ease-in-out;
+}
+
+button i:hover {
+    background: var(--button-color);
+    color: var(--primary-color);
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    width: 400px;
+    background: var(--icon-color);
+    border-radius: 10px;
+    display: none;
+    z-index: 2;
+    box-shadow: 0px 4px 10px rgba(10, 10, 10, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+form .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form h3 {
+    margin: 0;
+    font-size: 18px;
+    color: var(--button-color);
+}
+
+form i {
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--button-color);
+}
+
+form .actions {
+    display: flex;
+    flex-direction: column;
+}
+
+form .actions label {
+    color: lightgray;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    outline: var(--button-color);
+}
+
+form .actions input {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 14px;
+}
