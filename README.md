@@ -1,27 +1,9 @@
-<style>
-    .center h1{
-        text-align:center;
-    }
-
-    .center h3{
-        text-align:center;
-    }
-
-    img{
-        align-items:center;
-    }
-
-    p{
-        text-align:center;
-    }
-</style>
 
 # Mini Projects
 
 <div class="center">
     <h1>Frontend Mini Projects</h1>
     <h3>Challenges, Projects & much more</h3>
-    <a><img src="https://images.app.goo.gl/4ipoKbzifvw6Hzs48" alt="Logo"></a>
 </div>
 
 <p>Support us by giving a ⭐️ to this repo</p>
