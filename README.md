@@ -22,4 +22,4 @@ If you want to contribute, improve, or suggest changes to this repo, then check 
 
 ### License
 
-- This repo is `MIT licensed`(./LICENSE)
+- This repo is `MIT licensed`(./LICENSE.md)
