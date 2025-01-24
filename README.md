@@ -10,7 +10,7 @@
 
 ## About
 
-- This repo is created to list down all the popular challenges, projects and much more. Challenges & projects are made and solved with vanilla Javascript
+This repo is created to list down all the popular challenges, projects and much more. Challenges & projects are made and solved with vanilla Javascript
 
 <br/>
 
@@ -20,4 +20,4 @@ If you want to contribute, improve, or suggest changes to this repo, then check 
 
 ### License
 
-- This repo is ```MIT licensed```
+This repo is ```MIT licensed```
