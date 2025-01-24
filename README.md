@@ -16,9 +16,7 @@
 
 ## Contributing Guide
 
-If you want to contribute, improve, or suggest changes to this repo, then check out the [Contributing Guide](https://github.com/sadanandpai/frontend-mini-challenges/blob/main/CONTRIBUTING.md)
-
-<br/>
+If you want to contribute, improve, or suggest changes to this repo, then check out the ```Contributing Guide```
 
 ### License
 
